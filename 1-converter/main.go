@@ -8,3 +8,14 @@ func main() {
 	EURRUB := USDRUB / USDEUR
 	fmt.Print("EURRUB: ", EURRUB)
 }
+
+func getUserInput() string {
+	var input string
+	fmt.Scan(&input)
+	
+	return input
+}
+
+func calculate(num float64, fromValue string, toValue string) float64 {
+	
+}
